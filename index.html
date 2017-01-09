@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>uScreen360</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-touch-fullscreen" content="yes">
+
+        <style>
+            html,
+            body,
+            canvas {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+
+    <body>
+    <div id="container"></div>
+        <script src="lib/three.min.js"></script>
+        <script src="lib/Projector.js"></script>
+        <script src="js/renderers/CSS3DRenderer.js"></script>
+        <script src="js/controls/MainCtrl.js"></script>
+        <script src="js/Element.js"></script>
+        <script src="js/Util.js"></script>
+        <script>
+            window.init();
+        </script>
+    </body>
+
+</html>

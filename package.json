@@ -1,0 +1,22 @@
+{
+  "name": "threejs-sandbox",
+  "version": "0.0.1",
+  "description": "360 environment",
+  "main": "index.html",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:machad0/Three.js-sandbox.git"
+  },
+  "author": "Lucas Machado <lucas.figueira@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-webserver": "^0.9.1"
+  }
+}
