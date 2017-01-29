@@ -18,9 +18,7 @@ gulp.task('babel', () => {
             presets: ['es2015']
 	}))
 	.pipe(gulp.dest('dist'))
-	.pipe(gulp.dest('dist'))
 	.pipe(rename('build.js'))
-	.pipe(gulp.dest('dist'))
 });
 
 gulp.watch([
