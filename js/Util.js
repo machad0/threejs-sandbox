@@ -1,5 +1,3 @@
-/* global canvas, vrHMD, webGL */
-
 (function(global, document) {
     'use strict';
 
